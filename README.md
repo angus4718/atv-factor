@@ -57,8 +57,8 @@ The methodology is adapted to the JPX Tokyo Stock Exchange using:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/angus4718/atv_factor.git
-   cd atv_factor
+   git clone https://github.com/angus4718/atv-factor.git
+   cd atv-factor
    ```
 
 2. Install dependencies:
