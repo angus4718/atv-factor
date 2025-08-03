@@ -89,7 +89,9 @@ pivoted['TradingFactor'] = ((pivoted['SU'] + pivoted['BU']) - (pivoted['SO'] + p
 
 ## Results
 
-The trading factor captures mispricing caused by excessive trading volumes in the JPX Tokyo Stock Exchange. I have not backtested the factor yet but I am personally unconvinced this factor can consistently outperform the market given the simple linearity assumption.
+The trading factor captures mispricing caused by excessive trading volumes in the JPX Tokyo Stock Exchange. I have backtested the factor using historical data and compared its cumulative returns against the market benchmark. The factor underperforms the market significantly and fails to provide meaningful predictive power for stock returns.
+
+![Cumulative Returns: Trading Factor vs Market](assets/output.png)
 
 ---
 
