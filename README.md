@@ -68,6 +68,18 @@ The methodology is adapted to the JPX Tokyo Stock Exchange using:
 
 ---
 
+## Reproducibility
+
+- **Python version:** Python 3.8+ (3.10 recommended).
+- Create and activate a virtual environment (Windows example):
+   ```powershell
+   python -m venv .venv
+   .\.venv\Scripts\Activate.ps1
+   pip install -r requirements.txt
+   ```
+- To reproduce the notebook results, open `atv_factor.ipynb` with Jupyter Notebook or JupyterLab and run the cells in order. Ensure the data folder `jpx-tokyo-stock-exchange-prediction/` is present in the repository root.
+
+
 ## Key Python Code
 
 ### Abnormal Trading Volume (ATV) Calculation:
